@@ -1,5 +1,32 @@
+# Data (don’t upload large/private data)
 *.npy
 *.db
 *.csv
+data/
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs / outputs
+*.log
+outputs/
+models/
+
+.history/
