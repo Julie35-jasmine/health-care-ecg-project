@@ -25,3 +25,4 @@ git add .
 git commit -m '작업 내용'
 git push
 ```
+- 주의사항: git push하기 전 반드시 팀원들께 공유 후 push해 주세요!
