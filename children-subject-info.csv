@@ -1,0 +1,30 @@
+subject_id,file_name,gender,age,diagnosis,ap_loacation,ecg_duration
+001,x001,M,6.6,AVRT,right posteroseptal,2:25:29.201
+002,x002,M,11,AVNRT,,1:45:17.81
+003,x003,F,11.9,AVRT-WPW,left lateral,2:30:31.749
+004,x004,M,14.8,AVRT-WPW,right posterior,2:17:52.426
+005,x005,M,17.1,AVRT,left anterior,0:30:58.974
+006,x006,F,8.8,AVNRT,,2:18:10.362
+007,x007,M,14.3,AVRT-PJRT,right posteroseptal,0:3:6.9
+008,x008,M,16.6,AVRT-WPW,right lateral,0:7:20.399
+009,x009,M,8,AVRT,right posteroseptal,0:14:36.684
+0010,x0010,F,14,AVNRT,,0:5:17.564
+0011,x0011,F,12.5,AVRT,right parahisian,0:11:57.035
+0012,x0012,M,12,AVRT,right parahisian,0:11:39.287
+0013,x0013,M,16.2,AVNRT,,0:3:54.1
+0014,x0014,M,13.6,AVNRT,,0:3:20.482
+0015,x0015,F,17.8,AVNRT,,0:3:14.342
+0016,x0016,F,12.7,AVNRT,,0:11:30.208
+0017,x0017,F,17.7,AVNRT,,0:3:27.722
+0018,x0018,M,8.6,AVNRT,,0:5:55.819
+0019,x0019,F,17.7,AVNRT,,0:3:47.636
+0020,x0020,M,8,AVRT,left posteroseptal,0:8:23.231
+0021,x0021,F,5,AVNRT,,0:9:13.749
+0022,x0022,M,17.6,AVRT,left posterior,0:4:7.344
+0023,x0023,M,18.1,AVRT-WPW,left posterolateral,0:6:35.536
+0024,x0024,F,11.5,AVNRT,,0:12:1.339
+0025,x0025,F,6.1,AVRT,left anterolateral,0:11:5.937
+0026,x0026,F,16.9,AVNRT,,0:3:26.542
+0027,x0027,M,9.4,AVRT-WPW,left posterior,0:1:17.659
+0028,x0028,F,12.5,AVRT,left posterolateral,0:4:1.113
+0029,x0029,F,9.7,AVRT,left lateral,0:12:28.774

@@ -1,5 +1,69 @@
-*.npy
-*.db
-*.csv
+# Python cache / notebooks
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+tf_env/
+
+# Local environment / secrets
+.env
+*.env
+.streamlit/secrets.toml
+dashboard/.streamlit/secrets.toml
+dbeaver_here/
+dashboard/dbeaver_here/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw ECG / WFDB source data
+*.dat
+*.hea
+*.atr
+RECORDS
+leipzig-heart-center-ecg-data/
+dashboard/leipzig-heart-center-ecg-data/
+
+# Archives and large arrays
+*.zip
+*.tar
+*.gz
+*.7z
+*.npy
+*.npz
+
+# Project-generated outputs outside the deployable dashboard
+output/
+outputs/
+output_refactored/
+outputs_xgb_refactor/
+catboost_info/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Keep dashboard deployment data tracked.
+!dashboard/
+!dashboard/app.py
+!dashboard/streamlit_초안9.py
+!dashboard/README_실행방법.md
+!dashboard/requirements.txt
+!dashboard/run_dashboard.bat
+!dashboard/*.csv
+!dashboard/ecg_results/
+!dashboard/ecg_results/*.csv

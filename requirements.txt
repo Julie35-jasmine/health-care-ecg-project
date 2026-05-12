@@ -1,0 +1,10 @@
+streamlit==1.53.0
+pandas
+numpy
+plotly
+matplotlib
+wfdb
+python-dotenv
+SQLAlchemy
+PyMySQL
+google-genai

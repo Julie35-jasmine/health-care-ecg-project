@@ -1,0 +1,11 @@
+subject_id,file_name,gender,age,diagnosis,ecg_duration
+100,x100,M,64.16,TOF with VT,0:13:2.107
+101,x101,M,29.05,TOF with VT,0:17:51.82
+102,x102,F,54.35,TOF without VT,0:28:26.809
+103,x103,F,21.68,TOF with nsVT,0:18:59.532
+104,x104,M,35.24,TOF with VT,0:57:27.091
+105,x105,F,55.92,TOF with VT,0:27:42.819
+106,x106,M,34.52,TOF with VT,0:17:46.972
+107,x107,M,43.04,TOF with VT,0:19:51.946
+108,x108,M,49.72,TOF with VT,0:25:9.862
+109,x109,M,60.52,TOF with VT,0:10:35.415
