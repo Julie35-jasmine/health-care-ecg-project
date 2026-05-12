@@ -2726,7 +2726,12 @@ def get_gemini_api_key():
 
 
 def get_gemini_model_name():
-    return os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
+    try:
+        if "GEMINI_MODEL" in st.secrets and st.secrets["GEMINI_MODEL"]:
+            return str(st.secrets["GEMINI_MODEL"])
+    except Exception:
+        pass
+    return os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 
 
 def get_gemini_client():
